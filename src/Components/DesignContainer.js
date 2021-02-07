@@ -29,7 +29,7 @@ class DesignContainer extends Component {
         <header className="app-header">
           <h1>Drag_And_Drop</h1>
           <button
-            class={isEditing ? "editing" : "no-editing"}
+            className={isEditing ? "editing" : "no-editing"}
             onClick={() => this.setState({ isEditing: !isEditing })}
           >
             EDIT
